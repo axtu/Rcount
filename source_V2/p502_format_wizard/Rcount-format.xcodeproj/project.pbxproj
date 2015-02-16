@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DD3F29A89CCB1319267227C /* moc_formatwizard.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 31653790584510BFA12AA840 /* moc_formatwizard.cpp */; settings = {ATTRIBUTES = (); }; };
+		14030FB267B619C665EA0C8B /* QtCore.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = 98147451093A70FCFFA99C13 /* QtCore.framework */; };
+		1AF122EFF80A3C2D63FDAC05 /* moc_simple_tree_model.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 985A4C4D7ECA31FA014DFF1F /* moc_simple_tree_model.cpp */; settings = {ATTRIBUTES = (); }; };
+		2B093CA6F071B023A473CED0 /* main.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 118FCBAABA162BA17933C789 /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+		68C05F236956D048DBDD776A /* simple_tree_model.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = E335F039FCE58836EE56CC0C /* simple_tree_model.cpp */; settings = {ATTRIBUTES = (); }; };
+		69F606C3AB3FAD134D8B317B /* simple_tree_item.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 846EE4BA17A2B270B123B25C /* simple_tree_item.cpp */; settings = {ATTRIBUTES = (); }; };
+		BC793246637FF51827EA4C5F /* QtGui.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = 6657E5C12ADFA1502DD63F0C /* QtGui.framework */; };
+		D421CD5673136FC5527A3673 /* formatwizard.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 551DB054FAE6222927E11667 /* formatwizard.cpp */; settings = {ATTRIBUTES = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05D180C0157F3E65A1C0F26B /* simple_data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = simple_data.h; sourceTree = SOURCE_ROOT; };
+		118FCBAABA162BA17933C789 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		186BAB40A98DA801ABBD07B4 /* simple_data_collection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = simple_data_collection.h; sourceTree = SOURCE_ROOT; };
+		1ECCA8250045BF9AF6AE6B9D /* p502_format_wizard.pro */ = {isa = PBXFileReference; lastKnownFileType = text; path = p502_format_wizard.pro; sourceTree = SOURCE_ROOT; };
+		253D3EA9B1C2CA633DFA6827 /* simple_tree_item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = simple_tree_item.h; sourceTree = SOURCE_ROOT; };
+		31653790584510BFA12AA840 /* moc_formatwizard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_formatwizard.cpp; sourceTree = SOURCE_ROOT; };
+		551DB054FAE6222927E11667 /* formatwizard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = formatwizard.cpp; sourceTree = SOURCE_ROOT; };
+		6657E5C12ADFA1502DD63F0C /* QtGui.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtGui.framework; path = /opt/local/Library/Frameworks/QtGui.framework; sourceTree = "<absolute>"; };
+		78E81C9D800F15E8A7ABA77E /* simple_tree_model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = simple_tree_model.h; sourceTree = SOURCE_ROOT; };
+		846EE4BA17A2B270B123B25C /* simple_tree_item.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = simple_tree_item.cpp; sourceTree = SOURCE_ROOT; };
+		8ADB3F1DCFC03E7689387999 /* formatwizard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = formatwizard.h; sourceTree = SOURCE_ROOT; };
+		98147451093A70FCFFA99C13 /* QtCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtCore.framework; path = /opt/local/Library/Frameworks/QtCore.framework; sourceTree = "<absolute>"; };
+		985A4C4D7ECA31FA014DFF1F /* moc_simple_tree_model.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_simple_tree_model.cpp; sourceTree = SOURCE_ROOT; };
+		CBF10BDF1A8BB7A1005CE8AB /* Rcount-format.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rcount-format.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF892D79BF646F47CB7EF4DE /* annotation_reader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = annotation_reader.h; path = ../p502_SOURCE/annotation_reader/annotation_reader.h; sourceTree = SOURCE_ROOT; };
+		E335F039FCE58836EE56CC0C /* simple_tree_model.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = simple_tree_model.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A1043669E6E5A7426EA502A /* Frameworks & Libraries */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC793246637FF51827EA4C5F /* QtGui.framework in Frameworks & Libraries */,
+				14030FB267B619C665EA0C8B /* QtCore.framework in Frameworks & Libraries */,
+			);
+			name = "Frameworks & Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05596AB53D8D521C69802C27 /* Rcount-format */ = {
+			isa = PBXGroup;
+			children = (
+				FB61758D0F0FDA4BA867C3D5 /* Sources */,
+				46E892BBB6BB6952967E0561 /* Temporary Sources */,
+				883D7615C4D2DE3FA1218F12 /* Headers */,
+				7CABE3C80E79AD2B307756D2 /* Sources [qmake] */,
+				ED1E82605DD74B483AF3C982 /* External Frameworks and Libraries */,
+				CBF10BE01A8BB7A1005CE8AB /* Products */,
+			);
+			name = "Rcount-format";
+			sourceTree = "<Group>";
+		};
+		1CB723D1F6F781DC9F55A041 /* p502_SOURCE */ = {
+			isa = PBXGroup;
+			children = (
+				256DEA8ABE682106AEF604DB /* annotation_reader */,
+			);
+			name = p502_SOURCE;
+			sourceTree = "<Group>";
+		};
+		256DEA8ABE682106AEF604DB /* annotation_reader */ = {
+			isa = PBXGroup;
+			children = (
+				DF892D79BF646F47CB7EF4DE /* annotation_reader.h */,
+			);
+			name = annotation_reader;
+			sourceTree = "<Group>";
+		};
+		4458B98565818D7E2682FA2D /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				1CB723D1F6F781DC9F55A041 /* p502_SOURCE */,
+			);
+			name = ..;
+			sourceTree = "<Group>";
+		};
+		46E892BBB6BB6952967E0561 /* Temporary Sources */ = {
+			isa = PBXGroup;
+			children = (
+				985A4C4D7ECA31FA014DFF1F /* moc_simple_tree_model.cpp */,
+				31653790584510BFA12AA840 /* moc_formatwizard.cpp */,
+			);
+			name = "Temporary Sources";
+			sourceTree = "<Group>";
+		};
+		7CABE3C80E79AD2B307756D2 /* Sources [qmake] */ = {
+			isa = PBXGroup;
+			children = (
+				1ECCA8250045BF9AF6AE6B9D /* p502_format_wizard.pro */,
+			);
+			name = "Sources [qmake]";
+			sourceTree = "<Group>";
+		};
+		883D7615C4D2DE3FA1218F12 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				253D3EA9B1C2CA633DFA6827 /* simple_tree_item.h */,
+				78E81C9D800F15E8A7ABA77E /* simple_tree_model.h */,
+				4458B98565818D7E2682FA2D /* .. */,
+				05D180C0157F3E65A1C0F26B /* simple_data.h */,
+				186BAB40A98DA801ABBD07B4 /* simple_data_collection.h */,
+				8ADB3F1DCFC03E7689387999 /* formatwizard.h */,
+			);
+			name = Headers;
+			sourceTree = "<Group>";
+		};
+		CBF10BE01A8BB7A1005CE8AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBF10BDF1A8BB7A1005CE8AB /* Rcount-format.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED1E82605DD74B483AF3C982 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				6657E5C12ADFA1502DD63F0C /* QtGui.framework */,
+				98147451093A70FCFFA99C13 /* QtCore.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<Group>";
+		};
+		FB61758D0F0FDA4BA867C3D5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				846EE4BA17A2B270B123B25C /* simple_tree_item.cpp */,
+				E335F039FCE58836EE56CC0C /* simple_tree_model.cpp */,
+				551DB054FAE6222927E11667 /* formatwizard.cpp */,
+				118FCBAABA162BA17933C789 /* main.cpp */,
+			);
+			name = Sources;
+			sourceTree = "<Group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB1A3D9BFD41BB1FEC733560 /* Rcount-format */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B3380A4D6A7D415E7F2E1E /* Build configuration list for PBXNativeTarget "Rcount-format" */;
+			buildPhases = (
+				D7BA7D76DAB5DD13389D6332 /* Qt Qmake */,
+				A0A52A2ADF7A1E2A99738674 /* Qt Preprocessors */,
+				C29B8785722055ED95EF7B57 /* Build Sources */,
+				2A1043669E6E5A7426EA502A /* Frameworks & Libraries */,
+				3787F99312C85FF0073FD7BA /* Bundle Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rcount-format";
+			productName = "Rcount-format";
+			productReference = CBF10BDF1A8BB7A1005CE8AB /* Rcount-format.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91B15E841AA80083484172DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = CC82A9286117DFED018F418F /* Build configuration list for PBXProject "Rcount-format" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 05596AB53D8D521C69802C27 /* Rcount-format */;
+			productRefGroup = CBF10BE01A8BB7A1005CE8AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB1A3D9BFD41BB1FEC733560 /* Rcount-format */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3787F99312C85FF0073FD7BA /* Bundle Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Bundle Resources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A0A52A2ADF7A1E2A99738674 /* Qt Preprocessors */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Preprocessors";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/alext/Developer/Rcount/Rcount/source_V2/p502_format_wizard -f 'Rcount-format.xcodeproj/qt_preprocess.mak'";
+		};
+		D7BA7D76DAB5DD13389D6332 /* Qt Qmake */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Qmake";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/alext/Developer/Rcount/Rcount/source_V2/p502_format_wizard -f 'Rcount-format.xcodeproj/qt_makeqmake.mak'";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C29B8785722055ED95EF7B57 /* Build Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F606C3AB3FAD134D8B317B /* simple_tree_item.cpp in Build Sources */,
+				68C05F236956D048DBDD776A /* simple_tree_model.cpp in Build Sources */,
+				D421CD5673136FC5527A3673 /* formatwizard.cpp in Build Sources */,
+				2B093CA6F071B023A473CED0 /* main.cpp in Build Sources */,
+				1AF122EFF80A3C2D63FDAC05 /* moc_simple_tree_model.cpp in Build Sources */,
+				0DD3F29A89CCB1319267227C /* moc_formatwizard.cpp in Build Sources */,
+			);
+			name = "Build Sources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B72B24813252891014BCF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					/opt/local/Library/Frameworks,
+					/opt/local/lib,
+					/opt/local/Library/Frameworks,
+					/opt/local/lib,
+					/opt/local/Library/Frameworks,
+					/opt/local/lib,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = (
+					.,
+					/opt/local/Library/Frameworks/QtCore.framework/Versions/4/Headers,
+					/opt/local/Library/Frameworks/QtGui.framework/Versions/4/Headers,
+					/opt/local/Library/Frameworks/QtGui.framework/Versions/4/Headers,
+					/opt/local/Library/Frameworks/QtCore.framework/Versions/4/Headers,
+					/opt/local/include,
+					/usr/local/include,
+					/System/Library/Frameworks/CarbonCore.framework/Headers,
+					"/opt/local/share/qt4/mkspecs/macx-xcode",
+				);
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					/opt/local/lib,
+					/opt/local/Library/Frameworks,
+				);
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-DQT_NO_DEBUG",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-DQT_NO_DEBUG",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-F/opt/local/Library/Frameworks",
+					"-F/opt/local/lib",
+					"-F/opt/local/Library/Frameworks",
+					"-F/opt/local/lib",
+					"-L/opt/local/lib",
+				);
+				PRODUCT_NAME = "Rcount-format";
+			};
+			name = Debug;
+		};
+		8C7174830A1E4DCBA0332EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_NAME = "Rcount-format";
+			};
+			name = Release;
+		};
+		BEC09A62E69C3553534FF35E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				"INSTALL_PATH[sdk=*]" = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "Rcount-format";
+			};
+			name = Debug;
+		};
+		D70590BEB531B51029F711BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/opt/local/Library/Frameworks,
+					/opt/local/lib,
+					/opt/local/Library/Frameworks,
+					/opt/local/lib,
+					/opt/local/Library/Frameworks,
+					/opt/local/lib,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				HEADER_SEARCH_PATHS = (
+					.,
+					/opt/local/Library/Frameworks/QtCore.framework/Versions/4/Headers,
+					/opt/local/Library/Frameworks/QtGui.framework/Versions/4/Headers,
+					/opt/local/Library/Frameworks/QtGui.framework/Versions/4/Headers,
+					/opt/local/Library/Frameworks/QtCore.framework/Versions/4/Headers,
+					/opt/local/include,
+					/usr/local/include,
+					/System/Library/Frameworks/CarbonCore.framework/Headers,
+					"/opt/local/share/qt4/mkspecs/macx-xcode",
+				);
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					/opt/local/lib,
+					/opt/local/Library/Frameworks,
+				);
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-DQT_NO_DEBUG",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-DQT_NO_DEBUG",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-F/opt/local/Library/Frameworks",
+					"-F/opt/local/lib",
+					"-F/opt/local/Library/Frameworks",
+					"-F/opt/local/lib",
+					"-L/opt/local/lib",
+				);
+				PRODUCT_NAME = "Rcount-format";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17B3380A4D6A7D415E7F2E1E /* Build configuration list for PBXNativeTarget "Rcount-format" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC09A62E69C3553534FF35E /* Debug */,
+				8C7174830A1E4DCBA0332EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC82A9286117DFED018F418F /* Build configuration list for PBXProject "Rcount-format" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B72B24813252891014BCF61 /* Debug */,
+				D70590BEB531B51029F711BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91B15E841AA80083484172DE /* Project object */;
+}

@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0211C397C4CB6A3E27108A37 /* dataanalysisview.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = CB94164D8B40620E59F09658 /* dataanalysisview.cpp */; settings = {ATTRIBUTES = (); }; };
+		02CF46C6E01B8E2D04EDCDF1 /* bamhandler.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 1236AEED124ADC8444E8A9F8 /* bamhandler.cpp */; settings = {ATTRIBUTES = (); }; };
+		074E60E0DF1900113492D365 /* databasewriter.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 38CDC31F07F3BA04CF858D1C /* databasewriter.cpp */; settings = {ATTRIBUTES = (); }; };
+		14030FB267B619C665EA0C8B /* QtCore.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = 98147451093A70FCFFA99C13 /* QtCore.framework */; };
+		1CEEB4D432D875F968052E9D /* moc_readmapper.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 9F4741255F3457B47A7FACEE /* moc_readmapper.cpp */; settings = {ATTRIBUTES = (); }; };
+		1E49CFD37A8975D842DC72CE /* projecttreeviewitem.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 8F64AD48736A68E559F53C75 /* projecttreeviewitem.cpp */; settings = {ATTRIBUTES = (); }; };
+		2B093CA6F071B023A473CED0 /* main.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 118FCBAABA162BA17933C789 /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+		32567AEDA1ED78CBE05C849E /* moc_projecttreeviewmodel.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = D39573672EDB1C82AB77400C /* moc_projecttreeviewmodel.cpp */; settings = {ATTRIBUTES = (); }; };
+		38C696E302F9CAB0B98A307B /* moc_analysisprogressview.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = C6225A5E864AA9D10F9B74C4 /* moc_analysisprogressview.cpp */; settings = {ATTRIBUTES = (); }; };
+		3FF5500D65548450929722B1 /* moc_projecttreeview.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 7849C5412AAC96EE3C6EC160 /* moc_projecttreeview.cpp */; settings = {ATTRIBUTES = (); }; };
+		405392D839C9ACBF8BF8D011 /* createprojectwidget.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 3A9B3FE39DDB34E1EBE660B1 /* createprojectwidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		40F4C2FE67EB1C908F574F64 /* projecttreeview.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 7F1CF89EE81FC9A4D8FAA849 /* projecttreeview.cpp */; settings = {ATTRIBUTES = (); }; };
+		5762BD657AC97F4F3986960A /* moc_readcounter.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 992E642922D15632C12574BC /* moc_readcounter.cpp */; settings = {ATTRIBUTES = (); }; };
+		5B45998D716F970331A68355 /* moc_resulttableview.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = EBA6B22B6E21AA01D3779EF0 /* moc_resulttableview.cpp */; settings = {ATTRIBUTES = (); }; };
+		5B8E3D1C108C1733DA7F40AD /* QtXml.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = 461A817D11FA44155CA88DD9 /* QtXml.framework */; };
+		5BC512AC182E33ABB3298771 /* readcounter.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 1D2A59844170F81FBE2E338D /* readcounter.cpp */; settings = {ATTRIBUTES = (); }; };
+		5EFEA4B6F4AAD82E492A1E2E /* moc_bamhandler.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = F8F001D132ECAA155D06C88E /* moc_bamhandler.cpp */; settings = {ATTRIBUTES = (); }; };
+		62AE4F8A8174ED4ADB89E804 /* resulttableviewmodel.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 3A514CCB53D5B2F414C47B77 /* resulttableviewmodel.cpp */; settings = {ATTRIBUTES = (); }; };
+		675622B930962AFF5B119BD9 /* resulttableview.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 7B92C613C18234CDCB7BC89B /* resulttableview.cpp */; settings = {ATTRIBUTES = (); }; };
+		69B5B3D14866A7BC81774AC7 /* temporaryresults.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = D8AD76BDBA515A1D6330AF50 /* temporaryresults.cpp */; settings = {ATTRIBUTES = (); }; };
+		734CA87DC4C4DF6DC2289380 /* dataanalysis.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 91CD62FAC7821F13459ADA55 /* dataanalysis.cpp */; settings = {ATTRIBUTES = (); }; };
+		8B8C6DDBF6D1C6FC68921DB6 /* moc_consoleRunner.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 7D2CF86ABDAE0B3B0BF91FC5 /* moc_consoleRunner.cpp */; settings = {ATTRIBUTES = (); }; };
+		8CB8134B6EDAEA5858DB3338 /* moc_resulttableviewmodel.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 44798FB59A6D2654DEA5B549 /* moc_resulttableviewmodel.cpp */; settings = {ATTRIBUTES = (); }; };
+		9062F1E89726582AB34BEF1C /* moc_dataanalysis.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = FC61CE83F49D1838F4BFC25E /* moc_dataanalysis.cpp */; settings = {ATTRIBUTES = (); }; };
+		BC793246637FF51827EA4C5F /* QtGui.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = 6657E5C12ADFA1502DD63F0C /* QtGui.framework */; };
+		BFD0C92B5B00CF51AF549D5D /* projecttreeviewmodel.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 72C58841BEC7C3252DE73B89 /* projecttreeviewmodel.cpp */; settings = {ATTRIBUTES = (); }; };
+		C3C79E64F9ABAC46A03B16BF /* readmapper.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 462177751ABBDAEF956CF415 /* readmapper.cpp */; settings = {ATTRIBUTES = (); }; };
+		C729D5B928EF56F3C81793FE /* databasereader.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 7A3332554D5197A4DF74D8BE /* databasereader.cpp */; settings = {ATTRIBUTES = (); }; };
+		C8E37AB395E4FDA184270C68 /* fastahandler.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 6165D993D6B90493B176E7E5 /* fastahandler.cpp */; settings = {ATTRIBUTES = (); }; };
+		E1D08916B4DC75B6CC02ED8D /* databaseitem.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 0A173E8C780BB0CC2C066964 /* databaseitem.cpp */; settings = {ATTRIBUTES = (); }; };
+		F11AAB6281ED3360BA2EBD14 /* moc_createprojectwidget.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 85145F841D247A6FAAC026E0 /* moc_createprojectwidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		F32A4E0F030F0D39DE251553 /* analysisprogressview.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 4477A390971AC428447A9ECE /* analysisprogressview.cpp */; settings = {ATTRIBUTES = (); }; };
+		F6DD882E3B8D586FBA4EB65C /* moc_dataanalysisview.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = D062B346F813965E4FEFE241 /* moc_dataanalysisview.cpp */; settings = {ATTRIBUTES = (); }; };
+		F8883D75A5922583B89DD16F /* database.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = EAC1FABD25277376C1AA6DC0 /* database.cpp */; settings = {ATTRIBUTES = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08146A2E417E205F85706F80 /* bamhandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = bamhandler.h; path = ../p502_SOURCE/bamHandler/bamhandler.h; sourceTree = SOURCE_ROOT; };
+		0A173E8C780BB0CC2C066964 /* databaseitem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = databaseitem.cpp; path = ../p502_SOURCE/dataStructure/databaseitem.cpp; sourceTree = SOURCE_ROOT; };
+		118FCBAABA162BA17933C789 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		1236AEED124ADC8444E8A9F8 /* bamhandler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = bamhandler.cpp; path = ../p502_SOURCE/bamHandler/bamhandler.cpp; sourceTree = SOURCE_ROOT; };
+		1D2A59844170F81FBE2E338D /* readcounter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = readcounter.cpp; path = ../p502_SOURCE/dataAnalysis/readcounter.cpp; sourceTree = SOURCE_ROOT; };
+		23A19F264DF5C2342C553FA8 /* temporaryresults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = temporaryresults.h; path = ../p502_SOURCE/dataStructure/temporaryresults.h; sourceTree = SOURCE_ROOT; };
+		2AD05261AE365EE4A3CD1B65 /* projecttreeview.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = projecttreeview.ui; path = ../p502_GUI/projectTreeViewWidget/projecttreeview.ui; sourceTree = SOURCE_ROOT; };
+		2D12005444E5B8697509601C /* readmapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = readmapper.h; path = ../p502_SOURCE/dataAnalysis/readmapper.h; sourceTree = SOURCE_ROOT; };
+		2EC796B936305F3EF116FB7B /* createprojectwidget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = createprojectwidget.h; path = ../p502_GUI/createProjectWidget/createprojectwidget.h; sourceTree = SOURCE_ROOT; };
+		33B30FC0A0229FC5657AD5DC /* printTimeAndMem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = printTimeAndMem.h; path = ../p502_GUI/analysisProgressWidget/printTimeAndMem.h; sourceTree = SOURCE_ROOT; };
+		3490DF5407A645AE20D66390 /* resulttableview.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = resulttableview.ui; path = ../p502_GUI/resultTableViewWidget/resulttableview.ui; sourceTree = SOURCE_ROOT; };
+		38CDC31F07F3BA04CF858D1C /* databasewriter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = databasewriter.cpp; path = ../p502_SOURCE/dataStructure/databasewriter.cpp; sourceTree = SOURCE_ROOT; };
+		3A44376EA37EAAC9C368910E /* databasewriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = databasewriter.h; path = ../p502_SOURCE/dataStructure/databasewriter.h; sourceTree = SOURCE_ROOT; };
+		3A514CCB53D5B2F414C47B77 /* resulttableviewmodel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = resulttableviewmodel.cpp; path = ../p502_GUI/resultTableViewWidget/resulttableviewmodel.cpp; sourceTree = SOURCE_ROOT; };
+		3A9B3FE39DDB34E1EBE660B1 /* createprojectwidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = createprojectwidget.cpp; path = ../p502_GUI/createProjectWidget/createprojectwidget.cpp; sourceTree = SOURCE_ROOT; };
+		4477A390971AC428447A9ECE /* analysisprogressview.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = analysisprogressview.cpp; path = ../p502_GUI/analysisProgressWidget/analysisprogressview.cpp; sourceTree = SOURCE_ROOT; };
+		44798FB59A6D2654DEA5B549 /* moc_resulttableviewmodel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_resulttableviewmodel.cpp; sourceTree = SOURCE_ROOT; };
+		461A817D11FA44155CA88DD9 /* QtXml.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtXml.framework; path = /opt/local/Library/Frameworks/QtXml.framework; sourceTree = "<absolute>"; };
+		462177751ABBDAEF956CF415 /* readmapper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = readmapper.cpp; path = ../p502_SOURCE/dataAnalysis/readmapper.cpp; sourceTree = SOURCE_ROOT; };
+		4716F7C4310BA4C124B1B63D /* database.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = database.h; path = ../p502_SOURCE/dataStructure/database.h; sourceTree = SOURCE_ROOT; };
+		55BB813B4B4BEAA0EA64BD91 /* analysisprogressview.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = analysisprogressview.ui; path = ../p502_GUI/analysisProgressWidget/analysisprogressview.ui; sourceTree = SOURCE_ROOT; };
+		5721BB4F6CDB05CA4B16FFC5 /* ui_createprojectwidget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ui_createprojectwidget.h; sourceTree = SOURCE_ROOT; };
+		5C924DCC356AE7821CE663D6 /* dataanalysis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = dataanalysis.h; path = ../p502_SOURCE/dataAnalysis/dataanalysis.h; sourceTree = SOURCE_ROOT; };
+		6165D993D6B90493B176E7E5 /* fastahandler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = fastahandler.cpp; path = ../p502_SOURCE/fastaHandler/fastahandler.cpp; sourceTree = SOURCE_ROOT; };
+		6657E5C12ADFA1502DD63F0C /* QtGui.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtGui.framework; path = /opt/local/Library/Frameworks/QtGui.framework; sourceTree = "<absolute>"; };
+		67C71E0024EE0202FA0B97CE /* createprojectwidget.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = createprojectwidget.ui; path = ../p502_GUI/createProjectWidget/createprojectwidget.ui; sourceTree = SOURCE_ROOT; };
+		6E80E2F7FB082CD2FAF13425 /* readcounter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = readcounter.h; path = ../p502_SOURCE/dataAnalysis/readcounter.h; sourceTree = SOURCE_ROOT; };
+		72C58841BEC7C3252DE73B89 /* projecttreeviewmodel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = projecttreeviewmodel.cpp; path = ../p502_GUI/projectTreeViewWidget/projecttreeviewmodel.cpp; sourceTree = SOURCE_ROOT; };
+		7435ABC823CC1C880B44EC9F /* bamhelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = bamhelpers.h; path = ../p502_SOURCE/bamHandler/bamhelpers.h; sourceTree = SOURCE_ROOT; };
+		7849C5412AAC96EE3C6EC160 /* moc_projecttreeview.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_projecttreeview.cpp; sourceTree = SOURCE_ROOT; };
+		7A3332554D5197A4DF74D8BE /* databasereader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = databasereader.cpp; path = ../p502_SOURCE/dataStructure/databasereader.cpp; sourceTree = SOURCE_ROOT; };
+		7B92C613C18234CDCB7BC89B /* resulttableview.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = resulttableview.cpp; path = ../p502_GUI/resultTableViewWidget/resulttableview.cpp; sourceTree = SOURCE_ROOT; };
+		7D2CF86ABDAE0B3B0BF91FC5 /* moc_consoleRunner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_consoleRunner.cpp; sourceTree = SOURCE_ROOT; };
+		7F1CF89EE81FC9A4D8FAA849 /* projecttreeview.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = projecttreeview.cpp; path = ../p502_GUI/projectTreeViewWidget/projecttreeview.cpp; sourceTree = SOURCE_ROOT; };
+		85145F841D247A6FAAC026E0 /* moc_createprojectwidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_createprojectwidget.cpp; sourceTree = SOURCE_ROOT; };
+		863D4F8813EE65D1D57A5C91 /* analysisprogressview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = analysisprogressview.h; path = ../p502_GUI/analysisProgressWidget/analysisprogressview.h; sourceTree = SOURCE_ROOT; };
+		86DB75C191802B2A77CE880A /* ui_projecttreeview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ui_projecttreeview.h; sourceTree = SOURCE_ROOT; };
+		8860E82116D915D6791EA6D8 /* databaseitem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = databaseitem.h; path = ../p502_SOURCE/dataStructure/databaseitem.h; sourceTree = SOURCE_ROOT; };
+		8F64AD48736A68E559F53C75 /* projecttreeviewitem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = projecttreeviewitem.cpp; path = ../p502_GUI/projectTreeViewWidget/projecttreeviewitem.cpp; sourceTree = SOURCE_ROOT; };
+		91CD62FAC7821F13459ADA55 /* dataanalysis.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = dataanalysis.cpp; path = ../p502_SOURCE/dataAnalysis/dataanalysis.cpp; sourceTree = SOURCE_ROOT; };
+		98147451093A70FCFFA99C13 /* QtCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtCore.framework; path = /opt/local/Library/Frameworks/QtCore.framework; sourceTree = "<absolute>"; };
+		992E642922D15632C12574BC /* moc_readcounter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_readcounter.cpp; sourceTree = SOURCE_ROOT; };
+		9CDD120896FF289E9C1E70C1 /* fastahandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fastahandler.h; path = ../p502_SOURCE/fastaHandler/fastahandler.h; sourceTree = SOURCE_ROOT; };
+		9E3166951A9A276F5E40BB9E /* projecttreeviewitem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = projecttreeviewitem.h; path = ../p502_GUI/projectTreeViewWidget/projecttreeviewitem.h; sourceTree = SOURCE_ROOT; };
+		9E71603AF2531E97E81A968D /* dataanalysisview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = dataanalysisview.h; path = ../p502_GUI/dataAnalysisViewWidget/dataanalysisview.h; sourceTree = SOURCE_ROOT; };
+		9F4741255F3457B47A7FACEE /* moc_readmapper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_readmapper.cpp; sourceTree = SOURCE_ROOT; };
+		A5A7319B5DECBF4B0C687580 /* resulttableview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = resulttableview.h; path = ../p502_GUI/resultTableViewWidget/resulttableview.h; sourceTree = SOURCE_ROOT; };
+		A9368F6BB4477C72A765BD3A /* ui_resulttableview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ui_resulttableview.h; sourceTree = SOURCE_ROOT; };
+		AAD3ED54739752CE48291BD8 /* projecttreeview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = projecttreeview.h; path = ../p502_GUI/projectTreeViewWidget/projecttreeview.h; sourceTree = SOURCE_ROOT; };
+		BFA5622CC4C440CB28878D7C /* mappingtreeitem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mappingtreeitem.h; path = ../p502_SOURCE/dataStructure/mappingtreeitem.h; sourceTree = SOURCE_ROOT; };
+		C6225A5E864AA9D10F9B74C4 /* moc_analysisprogressview.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_analysisprogressview.cpp; sourceTree = SOURCE_ROOT; };
+		CB94164D8B40620E59F09658 /* dataanalysisview.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = dataanalysisview.cpp; path = ../p502_GUI/dataAnalysisViewWidget/dataanalysisview.cpp; sourceTree = SOURCE_ROOT; };
+		CBCDBB061A8EACC500C3616C /* Rcount-distribute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rcount-distribute.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D062B346F813965E4FEFE241 /* moc_dataanalysisview.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_dataanalysisview.cpp; sourceTree = SOURCE_ROOT; };
+		D2101243AD243326981D3C26 /* databasereader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = databasereader.h; path = ../p502_SOURCE/dataStructure/databasereader.h; sourceTree = SOURCE_ROOT; };
+		D39573672EDB1C82AB77400C /* moc_projecttreeviewmodel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_projecttreeviewmodel.cpp; sourceTree = SOURCE_ROOT; };
+		D8AD76BDBA515A1D6330AF50 /* temporaryresults.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = temporaryresults.cpp; path = ../p502_SOURCE/dataStructure/temporaryresults.cpp; sourceTree = SOURCE_ROOT; };
+		E37AE82FC60D8BC5243AD0D2 /* consoleRunner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = consoleRunner.h; sourceTree = SOURCE_ROOT; };
+		E3D2696A94E8B18ACBFA4A22 /* ui_analysisprogressview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ui_analysisprogressview.h; sourceTree = SOURCE_ROOT; };
+		E8205E2F298873F15B8ED174 /* resulttableviewmodel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = resulttableviewmodel.h; path = ../p502_GUI/resultTableViewWidget/resulttableviewmodel.h; sourceTree = SOURCE_ROOT; };
+		EAC1FABD25277376C1AA6DC0 /* database.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = database.cpp; path = ../p502_SOURCE/dataStructure/database.cpp; sourceTree = SOURCE_ROOT; };
+		EBA6B22B6E21AA01D3779EF0 /* moc_resulttableview.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_resulttableview.cpp; sourceTree = SOURCE_ROOT; };
+		F8F001D132ECAA155D06C88E /* moc_bamhandler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_bamhandler.cpp; sourceTree = SOURCE_ROOT; };
+		FB537C33CA4FD5DA962FC096 /* p502dataAnalysisRNA.pro */ = {isa = PBXFileReference; lastKnownFileType = text; path = p502dataAnalysisRNA.pro; sourceTree = SOURCE_ROOT; };
+		FC61CE83F49D1838F4BFC25E /* moc_dataanalysis.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_dataanalysis.cpp; sourceTree = SOURCE_ROOT; };
+		FCB45FD8BBA6157A8F7415C4 /* projecttreeviewmodel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = projecttreeviewmodel.h; path = ../p502_GUI/projectTreeViewWidget/projecttreeviewmodel.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A1043669E6E5A7426EA502A /* Frameworks & Libraries */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8E3D1C108C1733DA7F40AD /* QtXml.framework in Frameworks & Libraries */,
+				14030FB267B619C665EA0C8B /* QtCore.framework in Frameworks & Libraries */,
+				BC793246637FF51827EA4C5F /* QtGui.framework in Frameworks & Libraries */,
+			);
+			name = "Frameworks & Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05596AB53D8D521C69802C27 /* Rcount-distribute */ = {
+			isa = PBXGroup;
+			children = (
+				FB61758D0F0FDA4BA867C3D5 /* Sources */,
+				46E892BBB6BB6952967E0561 /* Temporary Sources */,
+				883D7615C4D2DE3FA1218F12 /* Headers */,
+				7CABE3C80E79AD2B307756D2 /* Sources [qmake] */,
+				EEC299C65D5017EB9DD513B0 /* Sources [UIC] */,
+				ED1E82605DD74B483AF3C982 /* External Frameworks and Libraries */,
+				CBCDBB071A8EACC500C3616C /* Products */,
+			);
+			name = "Rcount-distribute";
+			sourceTree = "<Group>";
+		};
+		058086C6739B04DA8688050D /* dataStructure */ = {
+			isa = PBXGroup;
+			children = (
+				8860E82116D915D6791EA6D8 /* databaseitem.h */,
+				D2101243AD243326981D3C26 /* databasereader.h */,
+				3A44376EA37EAAC9C368910E /* databasewriter.h */,
+				4716F7C4310BA4C124B1B63D /* database.h */,
+				23A19F264DF5C2342C553FA8 /* temporaryresults.h */,
+				BFA5622CC4C440CB28878D7C /* mappingtreeitem.h */,
+			);
+			name = dataStructure;
+			sourceTree = "<Group>";
+		};
+		092332D7F6264A8E80DA8B9B /* projectTreeViewWidget */ = {
+			isa = PBXGroup;
+			children = (
+				2AD05261AE365EE4A3CD1B65 /* projecttreeview.ui */,
+			);
+			name = projectTreeViewWidget;
+			sourceTree = "<Group>";
+		};
+		0BCB596495C8351C7E1F7AB0 /* p502_GUI */ = {
+			isa = PBXGroup;
+			children = (
+				092332D7F6264A8E80DA8B9B /* projectTreeViewWidget */,
+				356245093DEA77C5DF51126B /* createProjectWidget */,
+				D592F5D47B22440275B40BE3 /* resultTableViewWidget */,
+				79D3B1F59D3C496DBCD321B5 /* analysisProgressWidget */,
+			);
+			name = p502_GUI;
+			sourceTree = "<Group>";
+		};
+		1CB723D1F6F781DC9F55A041 /* p502_SOURCE */ = {
+			isa = PBXGroup;
+			children = (
+				058086C6739B04DA8688050D /* dataStructure */,
+				424535572B91485E9B0A550F /* fastaHandler */,
+				2DC01B069E0DCB66396ACFDC /* bamHandler */,
+				A940E17F1728A72BD212E574 /* dataAnalysis */,
+			);
+			name = p502_SOURCE;
+			sourceTree = "<Group>";
+		};
+		20A28465AE15B75FCA2D4E7F /* p502_GUI */ = {
+			isa = PBXGroup;
+			children = (
+				CC437CAAB2432BBC6D32ACCB /* createProjectWidget */,
+				D051B73F048A3BBD89516DF8 /* projectTreeViewWidget */,
+				A2D42EDD811DFA6C4DAB070E /* resultTableViewWidget */,
+				32C1BA9C53624F2BFA85360E /* dataAnalysisViewWidget */,
+				4410DEE34C18ED14391DC8A1 /* analysisProgressWidget */,
+			);
+			name = p502_GUI;
+			sourceTree = "<Group>";
+		};
+		216B0A73A785AC104692614C /* createProjectWidget */ = {
+			isa = PBXGroup;
+			children = (
+				2EC796B936305F3EF116FB7B /* createprojectwidget.h */,
+			);
+			name = createProjectWidget;
+			sourceTree = "<Group>";
+		};
+		2DC01B069E0DCB66396ACFDC /* bamHandler */ = {
+			isa = PBXGroup;
+			children = (
+				7435ABC823CC1C880B44EC9F /* bamhelpers.h */,
+				08146A2E417E205F85706F80 /* bamhandler.h */,
+			);
+			name = bamHandler;
+			sourceTree = "<Group>";
+		};
+		32C1BA9C53624F2BFA85360E /* dataAnalysisViewWidget */ = {
+			isa = PBXGroup;
+			children = (
+				CB94164D8B40620E59F09658 /* dataanalysisview.cpp */,
+			);
+			name = dataAnalysisViewWidget;
+			sourceTree = "<Group>";
+		};
+		356245093DEA77C5DF51126B /* createProjectWidget */ = {
+			isa = PBXGroup;
+			children = (
+				67C71E0024EE0202FA0B97CE /* createprojectwidget.ui */,
+			);
+			name = createProjectWidget;
+			sourceTree = "<Group>";
+		};
+		424535572B91485E9B0A550F /* fastaHandler */ = {
+			isa = PBXGroup;
+			children = (
+				9CDD120896FF289E9C1E70C1 /* fastahandler.h */,
+			);
+			name = fastaHandler;
+			sourceTree = "<Group>";
+		};
+		436EF90DE84E4B1FD0C8F1AA /* resultTableViewWidget */ = {
+			isa = PBXGroup;
+			children = (
+				E8205E2F298873F15B8ED174 /* resulttableviewmodel.h */,
+				A5A7319B5DECBF4B0C687580 /* resulttableview.h */,
+			);
+			name = resultTableViewWidget;
+			sourceTree = "<Group>";
+		};
+		4410DEE34C18ED14391DC8A1 /* analysisProgressWidget */ = {
+			isa = PBXGroup;
+			children = (
+				4477A390971AC428447A9ECE /* analysisprogressview.cpp */,
+			);
+			name = analysisProgressWidget;
+			sourceTree = "<Group>";
+		};
+		441F9800608A2503C95F2C7C /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				0BCB596495C8351C7E1F7AB0 /* p502_GUI */,
+			);
+			name = ..;
+			sourceTree = "<Group>";
+		};
+		4458B98565818D7E2682FA2D /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				1CB723D1F6F781DC9F55A041 /* p502_SOURCE */,
+				FBAB16AAEF5A9B9A5F91FA95 /* p502_GUI */,
+			);
+			name = ..;
+			sourceTree = "<Group>";
+		};
+		46E892BBB6BB6952967E0561 /* Temporary Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F8F001D132ECAA155D06C88E /* moc_bamhandler.cpp */,
+				9F4741255F3457B47A7FACEE /* moc_readmapper.cpp */,
+				992E642922D15632C12574BC /* moc_readcounter.cpp */,
+				FC61CE83F49D1838F4BFC25E /* moc_dataanalysis.cpp */,
+				85145F841D247A6FAAC026E0 /* moc_createprojectwidget.cpp */,
+				7849C5412AAC96EE3C6EC160 /* moc_projecttreeview.cpp */,
+				D39573672EDB1C82AB77400C /* moc_projecttreeviewmodel.cpp */,
+				44798FB59A6D2654DEA5B549 /* moc_resulttableviewmodel.cpp */,
+				EBA6B22B6E21AA01D3779EF0 /* moc_resulttableview.cpp */,
+				D062B346F813965E4FEFE241 /* moc_dataanalysisview.cpp */,
+				C6225A5E864AA9D10F9B74C4 /* moc_analysisprogressview.cpp */,
+				7D2CF86ABDAE0B3B0BF91FC5 /* moc_consoleRunner.cpp */,
+				86DB75C191802B2A77CE880A /* ui_projecttreeview.h */,
+				5721BB4F6CDB05CA4B16FFC5 /* ui_createprojectwidget.h */,
+				A9368F6BB4477C72A765BD3A /* ui_resulttableview.h */,
+				E3D2696A94E8B18ACBFA4A22 /* ui_analysisprogressview.h */,
+			);
+			name = "Temporary Sources";
+			sourceTree = "<Group>";
+		};
+		6553D5E4B1CFCA92A31AFA53 /* dataAnalysisViewWidget */ = {
+			isa = PBXGroup;
+			children = (
+				9E71603AF2531E97E81A968D /* dataanalysisview.h */,
+			);
+			name = dataAnalysisViewWidget;
+			sourceTree = "<Group>";
+		};
+		79D3B1F59D3C496DBCD321B5 /* analysisProgressWidget */ = {
+			isa = PBXGroup;
+			children = (
+				55BB813B4B4BEAA0EA64BD91 /* analysisprogressview.ui */,
+			);
+			name = analysisProgressWidget;
+			sourceTree = "<Group>";
+		};
+		7CABE3C80E79AD2B307756D2 /* Sources [qmake] */ = {
+			isa = PBXGroup;
+			children = (
+				FB537C33CA4FD5DA962FC096 /* p502dataAnalysisRNA.pro */,
+			);
+			name = "Sources [qmake]";
+			sourceTree = "<Group>";
+		};
+		883D7615C4D2DE3FA1218F12 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				4458B98565818D7E2682FA2D /* .. */,
+				E37AE82FC60D8BC5243AD0D2 /* consoleRunner.h */,
+			);
+			name = Headers;
+			sourceTree = "<Group>";
+		};
+		8FA5B57AC613A712BD649930 /* dataAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				462177751ABBDAEF956CF415 /* readmapper.cpp */,
+				1D2A59844170F81FBE2E338D /* readcounter.cpp */,
+				91CD62FAC7821F13459ADA55 /* dataanalysis.cpp */,
+			);
+			name = dataAnalysis;
+			sourceTree = "<Group>";
+		};
+		90209E2251239EF4417D9856 /* dataStructure */ = {
+			isa = PBXGroup;
+			children = (
+				0A173E8C780BB0CC2C066964 /* databaseitem.cpp */,
+				7A3332554D5197A4DF74D8BE /* databasereader.cpp */,
+				38CDC31F07F3BA04CF858D1C /* databasewriter.cpp */,
+				EAC1FABD25277376C1AA6DC0 /* database.cpp */,
+				D8AD76BDBA515A1D6330AF50 /* temporaryresults.cpp */,
+			);
+			name = dataStructure;
+			sourceTree = "<Group>";
+		};
+		A2D42EDD811DFA6C4DAB070E /* resultTableViewWidget */ = {
+			isa = PBXGroup;
+			children = (
+				3A514CCB53D5B2F414C47B77 /* resulttableviewmodel.cpp */,
+				7B92C613C18234CDCB7BC89B /* resulttableview.cpp */,
+			);
+			name = resultTableViewWidget;
+			sourceTree = "<Group>";
+		};
+		A940E17F1728A72BD212E574 /* dataAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				2D12005444E5B8697509601C /* readmapper.h */,
+				6E80E2F7FB082CD2FAF13425 /* readcounter.h */,
+				5C924DCC356AE7821CE663D6 /* dataanalysis.h */,
+			);
+			name = dataAnalysis;
+			sourceTree = "<Group>";
+		};
+		B706798B36F355CFD3C376E1 /* analysisProgressWidget */ = {
+			isa = PBXGroup;
+			children = (
+				863D4F8813EE65D1D57A5C91 /* analysisprogressview.h */,
+				33B30FC0A0229FC5657AD5DC /* printTimeAndMem.h */,
+			);
+			name = analysisProgressWidget;
+			sourceTree = "<Group>";
+		};
+		BFA3A29D17FD123C907B6E35 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				D8C40FA22BB7B62F3DE39A6D /* p502_SOURCE */,
+				20A28465AE15B75FCA2D4E7F /* p502_GUI */,
+			);
+			name = ..;
+			sourceTree = "<Group>";
+		};
+		CBCDBB071A8EACC500C3616C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBCDBB061A8EACC500C3616C /* Rcount-distribute.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC437CAAB2432BBC6D32ACCB /* createProjectWidget */ = {
+			isa = PBXGroup;
+			children = (
+				3A9B3FE39DDB34E1EBE660B1 /* createprojectwidget.cpp */,
+			);
+			name = createProjectWidget;
+			sourceTree = "<Group>";
+		};
+		CEAF9C0A285273CD0491FA38 /* projectTreeViewWidget */ = {
+			isa = PBXGroup;
+			children = (
+				AAD3ED54739752CE48291BD8 /* projecttreeview.h */,
+				FCB45FD8BBA6157A8F7415C4 /* projecttreeviewmodel.h */,
+				9E3166951A9A276F5E40BB9E /* projecttreeviewitem.h */,
+			);
+			name = projectTreeViewWidget;
+			sourceTree = "<Group>";
+		};
+		D051B73F048A3BBD89516DF8 /* projectTreeViewWidget */ = {
+			isa = PBXGroup;
+			children = (
+				7F1CF89EE81FC9A4D8FAA849 /* projecttreeview.cpp */,
+				72C58841BEC7C3252DE73B89 /* projecttreeviewmodel.cpp */,
+				8F64AD48736A68E559F53C75 /* projecttreeviewitem.cpp */,
+			);
+			name = projectTreeViewWidget;
+			sourceTree = "<Group>";
+		};
+		D32425E0BD401BABF7972231 /* fastaHandler */ = {
+			isa = PBXGroup;
+			children = (
+				6165D993D6B90493B176E7E5 /* fastahandler.cpp */,
+			);
+			name = fastaHandler;
+			sourceTree = "<Group>";
+		};
+		D592F5D47B22440275B40BE3 /* resultTableViewWidget */ = {
+			isa = PBXGroup;
+			children = (
+				3490DF5407A645AE20D66390 /* resulttableview.ui */,
+			);
+			name = resultTableViewWidget;
+			sourceTree = "<Group>";
+		};
+		D8C40FA22BB7B62F3DE39A6D /* p502_SOURCE */ = {
+			isa = PBXGroup;
+			children = (
+				90209E2251239EF4417D9856 /* dataStructure */,
+				D32425E0BD401BABF7972231 /* fastaHandler */,
+				F808415A135D0EC0C050FFC7 /* bamHandler */,
+				8FA5B57AC613A712BD649930 /* dataAnalysis */,
+			);
+			name = p502_SOURCE;
+			sourceTree = "<Group>";
+		};
+		ED1E82605DD74B483AF3C982 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				461A817D11FA44155CA88DD9 /* QtXml.framework */,
+				98147451093A70FCFFA99C13 /* QtCore.framework */,
+				6657E5C12ADFA1502DD63F0C /* QtGui.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<Group>";
+		};
+		EEC299C65D5017EB9DD513B0 /* Sources [UIC] */ = {
+			isa = PBXGroup;
+			children = (
+				441F9800608A2503C95F2C7C /* .. */,
+			);
+			name = "Sources [UIC]";
+			sourceTree = "<Group>";
+		};
+		F808415A135D0EC0C050FFC7 /* bamHandler */ = {
+			isa = PBXGroup;
+			children = (
+				1236AEED124ADC8444E8A9F8 /* bamhandler.cpp */,
+			);
+			name = bamHandler;
+			sourceTree = "<Group>";
+		};
+		FB61758D0F0FDA4BA867C3D5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BFA3A29D17FD123C907B6E35 /* .. */,
+				118FCBAABA162BA17933C789 /* main.cpp */,
+			);
+			name = Sources;
+			sourceTree = "<Group>";
+		};
+		FBAB16AAEF5A9B9A5F91FA95 /* p502_GUI */ = {
+			isa = PBXGroup;
+			children = (
+				216B0A73A785AC104692614C /* createProjectWidget */,
+				CEAF9C0A285273CD0491FA38 /* projectTreeViewWidget */,
+				436EF90DE84E4B1FD0C8F1AA /* resultTableViewWidget */,
+				6553D5E4B1CFCA92A31AFA53 /* dataAnalysisViewWidget */,
+				B706798B36F355CFD3C376E1 /* analysisProgressWidget */,
+			);
+			name = p502_GUI;
+			sourceTree = "<Group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED330249015397D2D34A3387 /* Rcount-distribute */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B3380A4D6A7D415E7F2E1E /* Build configuration list for PBXNativeTarget "Rcount-distribute" */;
+			buildPhases = (
+				D7BA7D76DAB5DD13389D6332 /* Qt Qmake */,
+				A0A52A2ADF7A1E2A99738674 /* Qt Preprocessors */,
+				C29B8785722055ED95EF7B57 /* Build Sources */,
+				2A1043669E6E5A7426EA502A /* Frameworks & Libraries */,
+				3787F99312C85FF0073FD7BA /* Bundle Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rcount-distribute";
+			productName = "Rcount-distribute";
+			productReference = CBCDBB061A8EACC500C3616C /* Rcount-distribute.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91B15E841AA80083484172DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = CC82A9286117DFED018F418F /* Build configuration list for PBXProject "Rcount-distribute" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 05596AB53D8D521C69802C27 /* Rcount-distribute */;
+			productRefGroup = CBCDBB071A8EACC500C3616C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED330249015397D2D34A3387 /* Rcount-distribute */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3787F99312C85FF0073FD7BA /* Bundle Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Bundle Resources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A0A52A2ADF7A1E2A99738674 /* Qt Preprocessors */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Preprocessors";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/alext/Developer/Rcount/Rcount/source_V2/p502dataAnalysisRNA -f 'Rcount-distribute.xcodeproj/qt_preprocess.mak'";
+		};
+		D7BA7D76DAB5DD13389D6332 /* Qt Qmake */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Qmake";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/alext/Developer/Rcount/Rcount/source_V2/p502dataAnalysisRNA -f 'Rcount-distribute.xcodeproj/qt_makeqmake.mak'";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C29B8785722055ED95EF7B57 /* Build Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1D08916B4DC75B6CC02ED8D /* databaseitem.cpp in Build Sources */,
+				C729D5B928EF56F3C81793FE /* databasereader.cpp in Build Sources */,
+				074E60E0DF1900113492D365 /* databasewriter.cpp in Build Sources */,
+				F8883D75A5922583B89DD16F /* database.cpp in Build Sources */,
+				69B5B3D14866A7BC81774AC7 /* temporaryresults.cpp in Build Sources */,
+				C8E37AB395E4FDA184270C68 /* fastahandler.cpp in Build Sources */,
+				02CF46C6E01B8E2D04EDCDF1 /* bamhandler.cpp in Build Sources */,
+				C3C79E64F9ABAC46A03B16BF /* readmapper.cpp in Build Sources */,
+				5BC512AC182E33ABB3298771 /* readcounter.cpp in Build Sources */,
+				734CA87DC4C4DF6DC2289380 /* dataanalysis.cpp in Build Sources */,
+				405392D839C9ACBF8BF8D011 /* createprojectwidget.cpp in Build Sources */,
+				40F4C2FE67EB1C908F574F64 /* projecttreeview.cpp in Build Sources */,
+				BFD0C92B5B00CF51AF549D5D /* projecttreeviewmodel.cpp in Build Sources */,
+				1E49CFD37A8975D842DC72CE /* projecttreeviewitem.cpp in Build Sources */,
+				62AE4F8A8174ED4ADB89E804 /* resulttableviewmodel.cpp in Build Sources */,
+				675622B930962AFF5B119BD9 /* resulttableview.cpp in Build Sources */,
+				0211C397C4CB6A3E27108A37 /* dataanalysisview.cpp in Build Sources */,
+				F32A4E0F030F0D39DE251553 /* analysisprogressview.cpp in Build Sources */,
+				2B093CA6F071B023A473CED0 /* main.cpp in Build Sources */,
+				5EFEA4B6F4AAD82E492A1E2E /* moc_bamhandler.cpp in Build Sources */,
+				1CEEB4D432D875F968052E9D /* moc_readmapper.cpp in Build Sources */,
+				5762BD657AC97F4F3986960A /* moc_readcounter.cpp in Build Sources */,
+				9062F1E89726582AB34BEF1C /* moc_dataanalysis.cpp in Build Sources */,
+				F11AAB6281ED3360BA2EBD14 /* moc_createprojectwidget.cpp in Build Sources */,
+				3FF5500D65548450929722B1 /* moc_projecttreeview.cpp in Build Sources */,
+				32567AEDA1ED78CBE05C849E /* moc_projecttreeviewmodel.cpp in Build Sources */,
+				8CB8134B6EDAEA5858DB3338 /* moc_resulttableviewmodel.cpp in Build Sources */,
+				5B45998D716F970331A68355 /* moc_resulttableview.cpp in Build Sources */,
+				F6DD882E3B8D586FBA4EB65C /* moc_dataanalysisview.cpp in Build Sources */,
+				38C696E302F9CAB0B98A307B /* moc_analysisprogressview.cpp in Build Sources */,
+				8B8C6DDBF6D1C6FC68921DB6 /* moc_consoleRunner.cpp in Build Sources */,
+			);
+			name = "Build Sources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B72B24813252891014BCF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					/opt/local/Library/Frameworks,
+					/opt/local/lib,
+					/opt/local/Library/Frameworks,
+					/opt/local/lib,
+					/opt/local/Library/Frameworks,
+					/opt/local/lib,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = (
+					.,
+					/opt/local/Library/Frameworks/QtCore.framework/Versions/4/Headers,
+					/opt/local/Library/Frameworks/QtGui.framework/Versions/4/Headers,
+					/opt/local/Library/Frameworks/QtXml.framework/Versions/4/Headers,
+					/opt/local/Library/Frameworks/QtXml.framework/Versions/4/Headers,
+					/opt/local/Library/Frameworks/QtGui.framework/Versions/4/Headers,
+					/opt/local/Library/Frameworks/QtCore.framework/Versions/4/Headers,
+					/opt/local/include,
+					.,
+					/usr/local/include,
+					/System/Library/Frameworks/CarbonCore.framework/Headers,
+					"/opt/local/share/qt4/mkspecs/macx-xcode",
+					/Users/alext/Developer/Rcount/Rcount/source_V2/,
+				);
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					/opt/local/lib,
+					/opt/local/Library/Frameworks,
+				);
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-DQT_NO_DEBUG",
+					"-DQT_XML_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-DQT_NO_DEBUG",
+					"-DQT_XML_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-F/opt/local/Library/Frameworks",
+					"-F/opt/local/lib",
+					"-F/opt/local/Library/Frameworks",
+					"-F/opt/local/lib",
+					"-L/opt/local/lib",
+					"-lz",
+				);
+				PRODUCT_NAME = "Rcount-distribute";
+			};
+			name = Debug;
+		};
+		8C7174830A1E4DCBA0332EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_NAME = "Rcount-distribute";
+			};
+			name = Release;
+		};
+		BEC09A62E69C3553534FF35E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Rcount-distribute";
+			};
+			name = Debug;
+		};
+		D70590BEB531B51029F711BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/opt/local/Library/Frameworks,
+					/opt/local/lib,
+					/opt/local/Library/Frameworks,
+					/opt/local/lib,
+					/opt/local/Library/Frameworks,
+					/opt/local/lib,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				HEADER_SEARCH_PATHS = (
+					.,
+					/opt/local/Library/Frameworks/QtCore.framework/Versions/4/Headers,
+					/opt/local/Library/Frameworks/QtGui.framework/Versions/4/Headers,
+					/opt/local/Library/Frameworks/QtXml.framework/Versions/4/Headers,
+					/opt/local/Library/Frameworks/QtXml.framework/Versions/4/Headers,
+					/opt/local/Library/Frameworks/QtGui.framework/Versions/4/Headers,
+					/opt/local/Library/Frameworks/QtCore.framework/Versions/4/Headers,
+					/opt/local/include,
+					.,
+					/usr/local/include,
+					/System/Library/Frameworks/CarbonCore.framework/Headers,
+					"/opt/local/share/qt4/mkspecs/macx-xcode",
+					/Users/alext/Developer/Rcount/Rcount/source_V2/,
+				);
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					/opt/local/lib,
+					/opt/local/Library/Frameworks,
+				);
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-DQT_NO_DEBUG",
+					"-DQT_XML_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-DQT_NO_DEBUG",
+					"-DQT_XML_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-F/opt/local/Library/Frameworks",
+					"-F/opt/local/lib",
+					"-F/opt/local/Library/Frameworks",
+					"-F/opt/local/lib",
+					"-L/opt/local/lib",
+					"-lz",
+				);
+				PRODUCT_NAME = "Rcount-distribute";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17B3380A4D6A7D415E7F2E1E /* Build configuration list for PBXNativeTarget "Rcount-distribute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC09A62E69C3553534FF35E /* Debug */,
+				8C7174830A1E4DCBA0332EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC82A9286117DFED018F418F /* Build configuration list for PBXProject "Rcount-distribute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B72B24813252891014BCF61 /* Debug */,
+				D70590BEB531B51029F711BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91B15E841AA80083484172DE /* Project object */;
+}
