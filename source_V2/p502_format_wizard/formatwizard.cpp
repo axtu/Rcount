@@ -81,6 +81,11 @@ void formatwizard::do_sth()
             mydata.set_5_prime(five_prime);
             mydata.set_ensembl_loader(useEnsemblLoader);
             QApplication::setOverrideCursor(Qt::WaitCursor);
+            
+            //new thread here
+            //Block everything until it fully loads and display that
+            //actually is loading, and not wasting time
+            
             rval = mydata.load_data();
             QApplication::restoreOverrideCursor();
             emit enableTreeView(mydata.get_structure());

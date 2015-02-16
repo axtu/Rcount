@@ -14,6 +14,7 @@ GNU General Public License for more details.
 See <http://www.gnu.org/licenses/> for a a copy of the GNU General Public License.
 */
 
+
 #include <QtGui/QApplication>
 #include "formatwizard.h"
 
