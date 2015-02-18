@@ -312,6 +312,7 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				PRODUCT_NAME = "Rcount-format";
+				STRIP_INSTALLED_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -323,6 +324,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				"INSTALL_PATH[sdk=*]" = "$(LOCAL_APPS_DIR)";
 				PRODUCT_NAME = "Rcount-format";
+				STRIP_INSTALLED_PRODUCT = YES;
 			};
 			name = Debug;
 		};
