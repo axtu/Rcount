@@ -4,15 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Rcount-format copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>Rcount-format.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>AB1A3D9BFD41BB1FEC733560</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CB78DE0B1A954FDB00A08804</key>
 		<dict>
 			<key>primary</key>
 			<true/>
