@@ -1,107 +1,28 @@
-Rcount
-======
+Rcount project for Mac OS
+=========================
 
-Rcount: simple and flexible RNA-Seq read counting
+If you decided to help/extend Rcount project and Xcode is your choice of IDE under Mac OS, here are some suggestions to help you get a clean start. There are two ways of code preparation to use with Xcode.
+/**
+Regardless of what your future steps will be, in order to build Rcount modules you are going to need:
 
-[Getting started with Rcount](https://github.com/MWSchmid/Rcount/blob/master/other/Rcount_user_guide.pdf?raw=true)
-
-64 bit binaries are available here:
-
-[Linux (ubuntu-like)](https://github.com/MWSchmid/Rcount/blob/master/other/linux_64bit.zip?raw=true)
-
-[Windows7](https://github.com/MWSchmid/Rcount/blob/master/other/windows_64bit.zip?raw=true)
-
-[MacOSX](https://github.com/MWSchmid/Rcount/blob/master/other/mac_64bit.zip?raw=true)
-
-Additional data for the tutorial and reference annotations are available here:
-
-[Data for the rice tutorial](http://www.botinst.uzh.ch/static/rcount/rice_tutorial.zip)
-
-[Test data annotations](http://www.botinst.uzh.ch/static/rcount/test_data_annotations.zip)
-
-[Test data results](http://www.botinst.uzh.ch/static/rcount/test_data_results.zip)
-
-NOTE: On linux, GLIBC needs to be at least version 2.14. Biolinux6 has a lower version.
-
-# Command-line version
-
-There is now a command-line version for Rcount-multireads and Rcount-distribute (only for 64 bit Ubuntu-like Linux). Important: it is not extensively tested yet. 
-
-[command-line version](https://github.com/MWSchmid/Rcount/blob/master/other/Rcount_CLV.zip?raw=true)
-
-Usage notes:
-
-1) For Rcount-multireads, type:
-
-./Rcount-multireads_CLV -c infile,outfile,doReweight,allocationDistance
-- infile must be a sorted bam file, outfile is bam.
-- doReweight should be either y or n
-- allocationDistance should be a number (e.g. 100)
-
-Example:
-
-./Rcount-multireads_CLV -c mySample.bam,mySampleReweighted.bam,y,100
-
-2) For Rcount-distribute, type:
-
-./Rcount-distribute_CLV -c [list of comma-separated project files]
-
-Examples:
-
-./Rcount-distribute_CLV -c myFirstProject.xml
-
-./Rcount-distribute_CLV -c myFirstProject.xml,mySecondProject.xml
-
-Note:
-the project files are the ones normally created by the GUI-version of Rcount ("create project"). I added a Python script which can be used to generate project files via the command-line.
+Qt (http://www.qt.io/download/)
+libz, can be obtained from macports ```sudo port install zlib```, homebrew ```brew install zlib```, or compiled from source (http://www.zlib.net)
+*/
 
 
-# API
-
-I'm planning to add more detailed description for using the source code directly within your code. Here just a very quick example if you would like to use the data base with the annotation where you can query read mappings or positions:
-
-Include the following files:
-
-```c++
-#include "../p502_SOURCE/dataStructure/databaseitem.h"
-#include "../p502_SOURCE/dataStructure/database.h"
-#include "../p502_SOURCE/dataStructure/mappingtreeitem.h"
-#include "../bamHandler/bamhelpers.h"
-```
-
-then later on in the code - initialize and load the data base:
-
-```c++
-QString annofile = "/path/to/annotation.xml";
-QVector<QVariant> headers;
-headers << "Sname" << "Schrom" << "Sstrand" << "Ustart" << "Uend" << "Sfeature" << "SassembledFeature" << "Upriority";
-database anno(headers);
-anno.print_time("START");
-if ( anno.readData(annofile) ) { anno.print_time("annotation loaded"); }
-```
-
-finally, you can query intervals or positions - there are multiple functions - check them the database header file:
-
-"../p502_SOURCE/dataStructure/database.h"
-
-for an example how to use it, check the function readMapper::run() in:
-
-"../p502_SOURCE/dataAnalysis/readmapper.cpp"
-
-here an example to map a simple position (chrom + pos):
-
-```c++
-QString chrom = "Chr1";
-uint pos = 11351183;
-QVector<databaseItem*> mapping = anno.bestRmapPosition(chrom, pos); // note that there are also functions which fill in pre-allocated vectors - if you like to avoid the return-by-value
-foreach (databaseItem* element, mapping) {
-  std::cerr << element->data(0).toString().toStdString() << std::endl << std::flush;
-}
-```
-(if you have specific questions, contact me)
+Easy way: clone this branch: ```git clone https://github.com/axtu/Rcount.git Rcount```. Folders
+source_V2/p502_process_multireads
+source_V2/p502_format_wizard
+source_V2/p502dataAnalysisRNA
+contain .xcodeproj files, which have already been configured and can be extended with ease
 
 
-
-
-
-
+Slightly less easy way: clone the [default branch by MWSchmid, the author of Rcount](https://github.com/MWSchmid/Rcount) and convert the original .pro QtCreator project files into .xcodeproj files. To do so:
+```git clone https://github.com/MWSchmid/Rcount Rcount```
+Check the source_V2/p502_process_multireads, source_V2/p502_format_wizard, source_V2/p502dataAnalysisRNA folders to find the .pro files. Convert all three files as follows: ```qmake -spec macx-xcode p502_<project name>.pro```; this process will automatically attach the necessary frameworks to each module’s project
+Open projects in Xcode; add seqan headers as follows
+select the project file and click on the “target” (Rcount-<format,multireads or distribute>
+go to “Headers search path” (open Basic + Level views), add /path/to/Rcount/folder/source_V2/ to the list of paths; this way the header files from seqan folder will be linked
+Move to “Linker” entry and add “-lz” to “Other Linker Flags” in order to link zlib
+Additionally you might want to configure the project for building a release version; to do that open “Product->Scheme” and change “Debug” option to “Release”
+The projects may now be build with “Product->Build” or simply Cmd+B
