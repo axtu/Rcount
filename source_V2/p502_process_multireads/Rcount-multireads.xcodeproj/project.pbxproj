@@ -287,7 +287,9 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				HEADER_SEARCH_PATHS = (
-					"/Users/alext/Developer/Rcount/Rcount/source_V2/\n/Users/alext/Developer/Rcount/Rcount/source_V2/\n/Users/alext/Developer/Rcount/Rcount/source_V2/",
+					/Users/alext/Developer/Rcount/Rcount/source_V2/,
+					/Users/alext/Developer/Rcount/Rcount/source_V2/,
+					/Users/alext/Developer/Rcount/Rcount/source_V2/,
 					.,
 					/opt/local/Library/Frameworks/QtCore.framework/Versions/4/Headers,
 					/opt/local/Library/Frameworks/QtGui.framework/Versions/4/Headers,
@@ -373,7 +375,9 @@
 				);
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				HEADER_SEARCH_PATHS = (
-					"/Users/alext/Developer/Rcount/Rcount/source_V2/\n/Users/alext/Developer/Rcount/Rcount/source_V2/\n/Users/alext/Developer/Rcount/Rcount/source_V2/",
+					/Users/alext/Developer/Rcount/Rcount/source_V2/,
+					/Users/alext/Developer/Rcount/Rcount/source_V2/,
+					/Users/alext/Developer/Rcount/Rcount/source_V2/,
 					.,
 					/opt/local/Library/Frameworks/QtCore.framework/Versions/4/Headers,
 					/opt/local/Library/Frameworks/QtGui.framework/Versions/4/Headers,
