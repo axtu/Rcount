@@ -34,7 +34,8 @@ go to “Headers search path” (open Basic + Level views), add /path/to/Rcount/
 5. (*)Additionally you might want to configure the project for building a release version; to do that open “Product->Scheme” and change “Debug” option to “Release”
 
 The projects may now be build with “Product->Build” or simply Cmd+B
+In case you choose to distribute any of the Rcount .app modules, it makes sense incorporate the Qt libraries into the app; go to /app/build/path/ and run ```macdeployqt Rcount-<module>.app```; You can also use “-dmg” flag if you want the .apps packed nicely in a .dmg image.
 
 # Precompiled binaries:
-[mac_64.dmg](https://github.com/axtu/Rcount/blob/master/other/mac_64.dmg)
+[mac_64.dmg](https://github.com/axtu/Rcount/blob/master/other/mac_64.dmg?raw=true)
 contains 3 Rcount modules and scripts
